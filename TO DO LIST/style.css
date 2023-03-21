@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    background: #374151;;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    
+}
+
+main {
+    min-width: 800px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#input-submit {
+    background: #111827;
+    color: crimson;
+    height: 50px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#input-text {
+    width: 400px;
+    background-color: #1F2937;
+    color: #8B5Cf6;
+    height: 50px;
+    font-size: 22px;
+    
+}
+
+#new-task-form {
+    max-width: 800px;
+    width: 100%;
+    height: 50px;
+
+}
+
+.task-list {
+    max-width: 800px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.task {
+    text-align: center;
+    border: 3px solid crimson;
+    border-radius: 15px;
+    height: 50px;
+    padding: 10px 5px 0 10px;
+    margin-bottom: 20px;
+    display: flex;
+    box-shadow: 0 0 10px 2px;
+}
+
+.content {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    height: 25px;
+}
+
+.list-input-text {
+    font-size: 22px;
+    color: #8B5Cf6;
+}
+
+.edit, .delete {
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: crimson;
+    
+}
+
+
+.action-buttons {
+   display: flex;
+   padding-bottom: 5px;
+}
+
